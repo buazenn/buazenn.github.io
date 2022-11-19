@@ -16,8 +16,31 @@
        <div class = "left">
         <div id = "zawartosc">
             <textarea disabled readonly rows="4" cols="50">
-                
-              KOD                
+              
+#include <stdio.h>
+int main(){
+float nm1, nm2;
+printf("Podaj dwie liczby.\n");
+printf("Pierwsza: ");
+scanf("%f",&nm1);
+printf("Druga: ");
+scanf("%f", &nm2);
+
+printf("Suma: \n");
+printf("%f", (nm1 + nm2));
+printf("Roznica: \n", (nm1 - nm2));
+printf("Iloczyn: Nie moge wstawic gwiazdki \n");
+printf("Iloraz: \n", (nm1 / nm2));
+printf("Srednia: \n", ((nm1 + nm2)/2));
+result = nm1 % nm2;
+printf("Reszta z dzielenia: \n", result);
+float percentage;
+percentage = (int)nm1 / nm2 * 100.0;
+printf("Procent: \n", percentage);
+
+return 0;
+}  
+                       
                 </textarea>
         </div>
        </div>
